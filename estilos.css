@@ -1,11 +1,10 @@
 body{
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: #fff;
 }
 
 #medidorPlaneta{
-    border: 2x solid#000;
+    border: 2px solid#000;
     width: 300px;
     height: 20px;
     background-color: #fff;
@@ -17,17 +16,17 @@ body{
     background-color: #66f;
 }
 
-.nav-Jog{
+.naveJog{
     width: 40px;
     height: 40px;
-    background-image: URL("nave_jog.gif");
+    background-color: #777777;
     position: absolute;
 }
 
 .bomba{
     width: 24px;
     height: 40px;
-    background-image: URL("bomba.gif");
+    background-color: #996655;
     position: absolute;
 }
 
@@ -41,6 +40,13 @@ body{
     width: 70px;
     height: 70px;
     position: absolute;
+}
+
+.tiroJog{
+    position: absolute;
+    background-color: #999999;
+    width: 20px;
+    height: 40px;
 }
 
 .telaMsg{

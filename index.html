@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body>
+<body onkeydown="teclaDw(event.keyCode);" onkeyup="teclaUp(event.keyCode);">
 
     <div id="painel">
         Planeta
@@ -19,11 +19,11 @@
         </div>
         <div id="contBombas"></div>
     </div>
-    <div id="naveJog"> class="naveJog"</div>
+    <div id="naveJog" class="naveJog"></div>
     <div id="telaMsg" class="TelaMsg">
         <button id="btnJogar" class="btnJogar">Jogar</button>
     </div>
-
+    <div id="objetos"></div>
 </body>
 
 </html>
